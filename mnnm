@@ -1,6 +1,5 @@
-local admin = false
-shared.fuckOffYouCunts = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/2567-rblx/scripts/main/Notoriety-FuckOffYouCunt.lua",true))()
-if admin == true then
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Sinscrips/roblox-scripts/main/Notoriety.lua', true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Sinscrips/roblox-scripts/main/Notoriety.lua', true))()
+if _G.deleteNpcs == true then
+	shared.fuckOffYouCunts = false
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/2567-rblx/scripts/main/Notoriety-FuckOffYouCunt.lua",true))()
 end
